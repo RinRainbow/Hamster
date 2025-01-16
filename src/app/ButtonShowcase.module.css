@@ -1,0 +1,17 @@
+.showcase {
+  padding: 20px;
+}
+
+.buttonGroup {
+  margin-bottom: 20px;
+}
+
+.buttonGroup h2 {
+  margin-bottom: 10px;
+}
+
+.buttonGroup button,
+.buttonGroup a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
