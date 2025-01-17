@@ -164,6 +164,35 @@ const ButtonShowcase: React.FC = () => {
         />
       </div>
       <div className={styles.buttonGroup}>
+        <h2>高さ、横幅の制御</h2>
+        <Button
+          label="制御後"
+          variant={ButtonVariant.BlackBackground}
+          height="50px"
+          width="150px"
+        />
+        <Button label="デフォルト" variant={ButtonVariant.BlackBackground} />
+        <br />
+        <Button
+          label="制御後"
+          variant={ButtonVariant.WhiteBackgroundWithBorder}
+          height="50px"
+          width="150px"
+        />
+        <Button
+          label="デフォルト"
+          variant={ButtonVariant.WhiteBackgroundWithBorder}
+        />
+        <br />
+        <Button
+          label="制御後"
+          variant={ButtonVariant.WhiteBackground}
+          height="50px"
+          width="150px"
+        />
+        <Button label="デフォルト" variant={ButtonVariant.WhiteBackground} />
+      </div>
+      <div className={styles.buttonGroup}>
         <h2>Submitボタン</h2>
         <Button
           label="Submit"
