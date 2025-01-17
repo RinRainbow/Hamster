@@ -11,4 +11,6 @@ export interface ButtonProps {
   state?: ButtonState;
   iconLeft?: React.ReactNode;
   iconRight?: React.ReactNode;
+  height?: string;
+  width?: string;
 }
