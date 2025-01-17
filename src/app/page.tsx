@@ -1,3 +1,4 @@
+import "./styles.css";
 import ButtonShowcase from "./ButtonShowcase";
 
 export default function Home() {
