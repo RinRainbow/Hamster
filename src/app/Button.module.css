@@ -8,6 +8,7 @@
   transition: background-color 0.3s, border-color 0.3s;
   border-radius: 5px;
   font-size: 1em;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
